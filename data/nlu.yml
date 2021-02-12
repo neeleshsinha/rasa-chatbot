@@ -1,0 +1,45 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hey
+    - Hi
+    - hey there
+
+- intent: facing_issue
+  examples: |
+    - Actually, I gave a call regarding the colour issues
+    - I called regarding colour issue
+    - I am facing the colour issue
+
+- intent: to_do
+  examples: |
+    - What will I have to do to get a red colour for the same price
+    - What is the procedure to get the red colour for the same price
+    - process to get the red colour for the same price
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - thanks
+    - great
+
+- intent: guide_me
+  examples: |
+    - Could you please guide me?
+    - could you suggest me how to do this
+
+- intent: colour
+  examples: |
+    - What will I have to do to get red colour for the same price
+    - What is the procedure to get the green for the same price
+    - process to get the blue colour for the same price
+
+
+
+
+
+
+
+
